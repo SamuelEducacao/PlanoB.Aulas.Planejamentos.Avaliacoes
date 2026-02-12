@@ -121,6 +121,44 @@ h1 {
   background: rgba(26, 62, 119, 0.04);
 }
 
+.investment {
+  background: linear-gradient(180deg, rgba(26, 62, 119, 0.07), rgba(58, 161, 126, 0.06));
+}
+
+.investment__label {
+  margin-bottom: 0.2rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.investment__price {
+  margin: 0 0 1rem;
+  color: var(--blue);
+}
+
+.investment__price strong {
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  letter-spacing: 0.01em;
+}
+
+.feature-list {
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.feature-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  margin-bottom: 0.7rem;
+}
+
+.feature-list li span {
+  color: var(--green);
+  font-weight: 700;
+}
+
 .cards {
   margin-top: 1.5rem;
   display: grid;
@@ -172,5 +210,9 @@ h1 {
 
   .section {
     padding: 3rem 0;
+  }
+
+  .btn {
+    width: 100%;
   }
 }
